@@ -131,7 +131,7 @@ I am responsible for the development of Web Configuration Server, and part of th
 
 ## Personal Projects
 
-[Live Sequence Protocol](http://code.poetpalace.org/cgit/p1/tree) (Golang): a transport protocol build on top of UDP, implemented some features like TCP, including sliding window, retransmission, heartbeat, and delivery order.
+[Live Sequence Protocol](http://code.poetpalace.org/cgit/p1/tree) (Golang): a transport protocol build on top of UDP, implemented some TCP-like features, including sliding window, retransmission, heartbeat, and delivery order.
 
 [Iputils](http://git.poetpalace.org/cgit.cgi/iputils/tree) (Python): a very simple implementation of tcpdump, ping, and traceroute.
 
