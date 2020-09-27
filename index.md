@@ -5,7 +5,8 @@ title: Yong Li's CV
 # Yong Li (李勇)
 
 <div id="webaddress">
-+86 18927406823 | <a href="s4179e1@msn.com">s4179e1@msn.com</a>
++86 18927406823 | 
+<a href="s4179e1@msn.com">s4179e1@msn.com</a>
 </div>
 
 ## Specialization
@@ -78,7 +79,7 @@ Skybility is a system integration provider, focus at HA Cluster, Virtualization,
 
 Participate in development of multiple products, including High Availability Cluster and Disaster Recovery system, Linux based thin client system, etc.
 
-Participate in the development of open source project php-libvirt and integrate it into Skybility’s heterogeneous virtualization management platform.
+Participate in the development of open source project [php-libvirt](https://libvirt.org/git/?p=libvirt-php.git;a=search;s=Lyre;st=author) and integrate it into Skybility’s heterogeneous virtualization management platform.
 
 ## Projects
 
@@ -113,7 +114,7 @@ ZBroker Coordination Service is a distributed coordination system, it's a part o
 
 I am responsible for the design and development of this service.
 
-__Bug Auto Triage__ (Python / Bash)
+__Bug Auto Triage__ (Python/Bash)
 
 Oracle Operation team file a bug for triage when any failure occurs, 40% of these failures were known issues such as hardware failures, software bugs, or incorrect configuration. This project while a modular framework that analyzes the bug description, attachments, call stacks, and generate a report showing the similarity with other known bugs.
 
@@ -121,7 +122,7 @@ I designed and developed the framework, also implemented the hardware fault modu
 
 ### Sykbility
 
-__Skybility High Availability & Disaster Recovery__ (C / Bash)
+__Skybility High Availability & Disaster Recovery__ (C/Bash)
 
 Skkybility HADR is a Disaster Recovery solution based on a existing two-node High Availability cluster, and integrates open source solution DRBD(similar to a RAID-0 over network) for disaster recovery. To mitigate the performance impact caused by limited internet bandwidth, a proxy module were developed to cache its I/O traffic, and send to its peer asynchronously.
 
@@ -151,7 +152,7 @@ Translation of *Randy Meyers'* [The New C](http://misc.poetpalace.org/C99/), whi
 `Sep 2004 – Jul 2009`
 **Shenzhen University**
 
-[Bachelor of Engineering in Computer Science]
+Bachelor of Engineering in Computer Science
 
 ## Certificates
 
