@@ -97,11 +97,11 @@ ul {
 }
 
 /*uncomment to get dashes in the list*/
-/*li:before {
+li:before {
 	content: "-";
 	position: relative;
 	left: -0.25em;
-}*/
+}
 
 li {
 	/*second line indent*/
@@ -160,7 +160,7 @@ h3 {
 
 a {
 	color: inherit;
-	text-decoration:none
+	/* text-decoration:none */
 }
 
 a:hover {
