@@ -37,6 +37,7 @@ Cooling, power series, optics, alchemy, planetary motions, apples.
 
 ### Tencent
 `Nov 2019 – Now` **Enterprise IT | [Solution Architecture]**
+
 Provide technical solution and consultant service in migrating IT service to Tencent Cloud. Adopt Site Reliability Engineering during the migration.
 
 Developed configuration standard and best practice, and base image for operating system(Linux & Window); Discover and fix non-standard configuration for online systems via automatic routine inspections. 
@@ -52,7 +53,40 @@ Responsible of the development of CI/CD system, to support the Tencent cloud inf
 
 Lead the development of RolesDB (a configuration management system, see project description below)
 
+### Tencent
+`Feb 2018 – Nov 2018`  **Cloud Foundation Department | [Site Reliability Engineer]**
 
+Responsible for the operation of Tencent Cloud Block Storage, ensure its availability and reliability
+
+Standardize the entire operation procedure, leverage CI/CD pipeline to upgrade existing clusters
+
+Developed system to automate new cluster deployment, by bridging gaps between multiple upstream systems.
+
+### Oracle
+`Nov 2016 – Feb 2018` **Architecture and Performance Service | [Site Reliability Engineer]**
+
+As a member of Architecture and Performance Service, provide solutions and technical support for Oracle’s infrastructure, participate in the development of AI Ops platform to ensure service reliability.
+
+Participate in P1 on call to support Oracle production environment, including public cloud. Responsible for critical service recovery and root cause analysis for Oracle Linux, Oracle VM, and ZFS Storage.
+
+### Oracle
+`Oct 2012 – Oct 2016` **Global Support Center | [Technical Support Engineer]**
+
+As a member of , provide technical support for Oracle Linux and Oracle VM, including but not limited to troubleshooting, crash root cause analysis, and performance tuning.
+
+Problem Management: Respond to solve customers’ problem according to severity level and SLA, escalate and engage more resource if needed.
+
+Knowledge Management: maintain testing environment to simulate and reproduce customers problem and deliver multiple notes in knowledge base. 
+
+
+### Skybility
+`Nov 2016 – Feb 2018` **Research & Development Center [Software Engineer]**
+
+Skybility is a system integration provider, focus at HA Cluster, Virtualization, and IT services.
+
+Participate in development of multiple products, including High Availability Cluster and Disaster Recovery system, Linux based thin client system, etc.
+
+Participate in the development of open source project php-libvirt and integrate it into Skybility’s heterogeneous virtualization management platform.
 
 ## Education
 
@@ -111,6 +145,23 @@ __Royal Mint__, London
 `1600`
 __Lucasian professor of Mathematics__, Cambridge University
 
+
+## Education
+
+`Sep 2004 – Jul 2009`
+**Shenzhen University**
+
+[Bachelor of Engineering in Computer Science] 
+
+## Certificates                                                                                       
+`Apr 2020`
+__Tencent Cloud Solutions Architect Associate Engineer__
+
+`Aug 2010`
+__Red Hat Certified Engineer (RHEL5)__
+
+`Jun 2006`
+__College English Test Band 4__
 
 
 <!-- ### Footer
