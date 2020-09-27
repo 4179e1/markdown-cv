@@ -36,7 +36,8 @@ Cooling, power series, optics, alchemy, planetary motions, apples.
 ## Occupation
 
 ### Tencent
-`Nov 2019 – Now` **Enterprise IT | [Solution Architecture]**
+`Nov 2019 – Now`
+**Enterprise IT | [Solution Architecture]**
 
 Provide technical solution and consultant service in migrating IT service to Tencent Cloud. Adopt Site Reliability Engineering during the migration.
 
@@ -46,15 +47,15 @@ Lead the building of container service platform (based on Tencent Kubernetes Eng
 
 Participant in Business Group’s R&D platform -- a joint project involves multiple departments aim to improve the productivity of entire software R&D lifecycle, from development, testing, deployment, to operation. Responsible for the CI/CD sub-system development, also provide patches and advice to other sub-systems. 
 
-### Tencent
-`Dec 2018 – Nov 2019` **Cloud Foundation Department | [Software Engineer]**
+`Dec 2018 – Nov 2019`
+**Cloud Foundation Department | [Software Engineer]**
 
 Responsible of the development of CI/CD system, to support the Tencent cloud infrastructure, including block storage, database, and finance technology.
 
 Lead the development of RolesDB (a configuration management system, see project description below)
 
-### Tencent
-`Feb 2018 – Nov 2018`  **Cloud Foundation Department | [Site Reliability Engineer]**
+`Feb 2018 – Nov 2018`
+**Cloud Foundation Department | [Site Reliability Engineer]**
 
 Responsible for the operation of Tencent Cloud Block Storage, ensure its availability and reliability
 
@@ -69,8 +70,8 @@ As a member of Architecture and Performance Service, provide solutions and techn
 
 Participate in P1 on call to support Oracle production environment, including public cloud. Responsible for critical service recovery and root cause analysis for Oracle Linux, Oracle VM, and ZFS Storage.
 
-### Oracle
-`Oct 2012 – Oct 2016` **Global Support Center | [Technical Support Engineer]**
+`Oct 2012 – Oct 2016`
+**Global Support Center | [Technical Support Engineer]**
 
 As a member of , provide technical support for Oracle Linux and Oracle VM, including but not limited to troubleshooting, crash root cause analysis, and performance tuning.
 
