@@ -29,11 +29,9 @@ Cloud Computing, Operating System, Distributed System, Container, Storage, and N
 
 ### Tencent
 `Nov 2019 – Now`
-**Enterprise IT [Solution Architecture]**
+**Enterprise IT [Hybrid Role]**
 
-Provide technical solution and consultant service while migrating IT service to Tencent Cloud.
-
-Lead the building of container service platform (based on Tencent Kubernetes Engine).
+Provide technical solution and consultant service while migrating IT service to Tencent Cloud, especially for containerized services.
 
 Implement Site Reliability Engineering to improve service quality, including procedure, automation, and culture.
 
@@ -51,21 +49,21 @@ Lead the development of RolesDB (a configuration management system, see project 
 
 Responsible for the operation of Tencent Cloud Block Storage, ensure its availability and reliability
 
-Standardize the entire operation procedure, leverage CI/CD pipeline to upgrade existing clusters
+Standardize the operation procedure, leverage CI/CD pipeline to upgrade existing clusters
 
 Developed system to automate new cluster deployment, by bridging gaps between multiple upstream systems.
 
 ### Oracle
 `Nov 2016 – Feb 2018` **Architecture and Performance Service [Site Reliability Engineer]**
 
-As a member of Architecture and Performance Service, provide solutions and technical support for Oracle’s infrastructure, participate in the development of AI Ops platform to ensure service reliability.
+Provide solutions and technical support for Oracle’s infrastructure, participate in the development of AI Ops platform to ensure service reliability.
 
-Take on call shift to support Oracle production environment, including public cloud. Responsible for critical service recovery and root cause analysis for Oracle Linux, Oracle VM, and ZFS Storage.
+Join on call rotation to support Oracle production environment, including public cloud. Responsible for critical service recovery and root cause analysis for Oracle Linux, Oracle VM, and ZFS Storage.
 
 `Oct 2012 – Oct 2016`
 **Global Support Center [Technical Support Engineer]**
 
-As a member of , provide technical support for Oracle Linux and Oracle VM, including but not limited to troubleshooting, crash root cause analysis, and performance tuning.
+Provide technical support for Oracle Linux and Oracle VM, including but not limited to troubleshooting, crash root cause analysis, and performance tuning.
 
 Problem Management: Respond to solve customers’ problem according to severity level and SLA, escalate and engage more resource if needed.
 
@@ -86,21 +84,25 @@ Participate in the development of open source project [php-libvirt](https://libv
 ### Tencent
 __Enterprise IT Container Platform__ (Helm/Golang)
 
-Developed configuration standard and best practice, and base image for operating system(Linux & Window); Discover and fix non-standard configuration for online systems via automatic routine inspections. 
+While migrating our containerized applications to Tencent Kubernetes Engine, we integrate it with multiple internal service for access control, namespace isolation, etc. As a Solution Architecture I lead the building of this platform, developed the procedure and best practice in application migration and deployment.
+
+As a Consultant, I share the knowledge on docker and kubernetes via lectures, trainings, demos, and articles. I also responsible for migrating our critical services like IAM into kubernetes.
+
+As a developer, I created a Helm Chart template (which implemented our best practice) and CI/CD plugin to simplify application deployment.
 
 __Enterprise IT Linux Base Image__ (Bash/Golang)
 
-Lead the building of container service platform (based on Tencent Kubernetes Engine) and integrated it with multiple internal services like configuration management, service discovery, monitoring, and logging. Along with the highly credential data protection requirement, provide a comprehensive solution to migrate existing service to containers.
+As a part of Site Reliability Engineering, we deliver our standard runtime by creating a Linux Base image. A modular framework were developed to automate the image creation, as well as daily routine inspections to discover the non-standard configuration for online systems.
 
-Participant in Business Group’s R&D platform -- a joint project involves multiple departments aim to improve the productivity of entire software R&D lifecycle, from development, testing, deployment, to operation. Responsible for the CI/CD sub-system development, also provide patches and advice to other sub-systems. 
+I purposed these configuration and best practice, scripts, images, and the dashboard.
 
-__RolesDB__ (Flask/MongoDB)
+__RolesDB__ (Python Flask/MongoDB)
 
-RolesDB is a Instance and Configuration Management System, aim to support the CI/CD pipeline for large scale underlying cloud infrastructure (storage, load balancer, etc). Its label based implementation allow user to filter instance preciously with flexibility.
+RolesDB is an Instance and Configuration Management System, aim to support the CI/CD pipeline for large scale underlying cloud infrastructure (storage, load balancer, etc). Its label based implementation allow user organize instance easily while  filter them preciously.
 
 I am the architecture and lead programmer for this project.
 
-__Cloud Block Storage Deployment__ (Flask/ETCD)
+__Cloud Block Storage Deployment__ (Python Flask/ETCD)
 
 This project bridged gaps between multiple upstream services to automate custer deployment, reducing the time to deploy a cluster from 30 minutes (in an ideal condition) to 5 minutes at average. It greatly improve the productivity as we were deploying new clusters every day.
 
@@ -116,7 +118,7 @@ I am responsible for the design and development of this service.
 
 __Bug Auto Triage__ (Python/Bash)
 
-Oracle Operation team file a bug for triage when any failure occurs, 40% of these failures were known issues such as hardware failures, software bugs, or incorrect configuration. This project while a modular framework that analyzes the bug description, attachments, call stacks, and generate a report showing the similarity with other known bugs.
+Operation team file bugs for triage whenever components failure, 40% of these bugs were known issues such as hardware failures, software bugs, or incorrect configuration. This project provide a modular framework that analyzes the bug description, attachments, call stacks, and generate a report showing the similarity with other known bugs.
 
 I designed and developed the framework, also implemented the hardware fault module.
 
@@ -128,7 +130,6 @@ Skkybility HADR is a Disaster Recovery solution based on a existing two-node Hig
 
 I am responsible for the development of Web Configuration Server, and part of the proxy server.
 
-
 ## Personal Projects
 
 [Live Sequence Protocol](http://code.poetpalace.org/cgit/p1/tree) (Golang): a transport protocol build on top of UDP, implemented some TCP-like features, including sliding window, retransmission, heartbeat, and delivery order.
@@ -139,11 +140,11 @@ I am responsible for the development of Web Configuration Server, and part of th
 
 ## Articles (Chinese)
 
-Multiple articles published on [WeChat Public Account](https://cloud.tencent.com/developer/column/79283) 
+Multiple articles published on [WeChat Public Account](https://cloud.tencent.com/developer/column/79283), in a variety of technical fields.
 
-Comment for [ETCD Raft implementation](https://github.com/4179e1/etcd/tree/master/contrib/raftexample/doc)
+Comment for [ETCD's Raft implementation](https://github.com/4179e1/etcd/tree/master/contrib/raftexample/doc)
 
-A Lecture about [PAXOS, the Distributed Consensus Protocol](http://t.poetpalace.org/misc/paxos.pptx)
+A Lecture on distributed system, specially for [PAXOS, the Distributed Consensus Protocol](http://t.poetpalace.org/misc/paxos.pptx)
 
 Translation of *Randy Meyers'* [The New C](http://misc.poetpalace.org/C99/), which introduce features of C99
 
