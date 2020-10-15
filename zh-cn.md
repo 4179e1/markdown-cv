@@ -5,156 +5,162 @@ title: Yong Li's CV
 # 李勇
 
 <div id="webaddress">
-+86 18927406823 | <a href="s4179e1@msn.com">s4179e1@msn.com</a>
++86 18927406823 | 
+<a href="s4179e1@msn.com">s4179e1@msn.com</a> |
+<a href="./YongLi-CV-zh.pdf">下载PDF</a> |
+<a href="./index.html">English Version</a>
 </div>
 
+## Specialization
 
-## Skills
+10 years of development experience on Linux,
 
-10 years of development experience on Linux platform, including C, Shell, Python, and Golang
+also have rich experience in Site Reliability Engineering.
 
-Solid and comprehensive skill set, with rich experience in operating system, container, storage, and networking
+Solid and comprehensive skill set, like to share,
 
-  - Provide technical support for enterprise-grade Linux, proficient in failure recovery and root cause analysis
-  - Familiar with the ecosystem of containers and Kubernetes, provide technical solution
-  - Good understanding of distributed systems
+and keen to embrace leading-edge technologies.
 
-Experienced in both development and operation, have a more comprehensive perspective in IT infrastructure
+### Programming
 
-Keen to learn and embrace leading edge technologies, willing to share.
+C, Shell, Python, Golang, NodeJs, Lua
 
+### Skill
 
-### Specialized in
-
-Laws of motion, gravitation, minting coins, disliking [Robert Hooke](http://en.wikipedia.org/wiki/Robert_Hooke)
-
-
-### Research interests
-
-Cooling, power series, optics, alchemy, planetary motions, apples.
+Cloud Computing, Operating System, Distributed System, Container, Storage, and Networking
 
 ## Occupation
 
 ### Tencent
 `Nov 2019 – Now`
-**Enterprise IT | [Solution Architecture]**
+**Enterprise IT [Hybrid Role]**
 
-Provide technical solution and consultant service in migrating IT service to Tencent Cloud. Adopt Site Reliability Engineering during the migration.
+Provide technical solution and consultant service while migrating IT service to Tencent Cloud, especially for containerized services.
 
-Developed configuration standard and best practice, and base image for operating system(Linux & Window); Discover and fix non-standard configuration for online systems via automatic routine inspections. 
+Implement Site Reliability Engineering to improve service quality, including procedure, automation, and culture.
 
-Lead the building of container service platform (based on Tencent Kubernetes Engine) and integrated it with multiple internal services like configuration management, service discovery, monitoring, and logging. Along with the highly credential data protection requirement, provide a comprehensive solution to migrate existing service to containers.
-
-Participant in Business Group’s R&D platform -- a joint project involves multiple departments aim to improve the productivity of entire software R&D lifecycle, from development, testing, deployment, to operation. Responsible for the CI/CD sub-system development, also provide patches and advice to other sub-systems. 
+Participant in development of Business Group’s R&D platform to improve the productivity of software R&D lifecycle.
 
 `Dec 2018 – Nov 2019`
-**Cloud Foundation Department | [Software Engineer]**
+**Cloud Foundation Department [Software Engineer]**
 
 Responsible of the development of CI/CD system, to support the Tencent cloud infrastructure, including block storage, database, and finance technology.
 
 Lead the development of RolesDB (a configuration management system, see project description below)
 
 `Feb 2018 – Nov 2018`
-**Cloud Foundation Department | [Site Reliability Engineer]**
+**Cloud Foundation Department [Site Reliability Engineer]**
 
 Responsible for the operation of Tencent Cloud Block Storage, ensure its availability and reliability
 
-Standardize the entire operation procedure, leverage CI/CD pipeline to upgrade existing clusters
+Standardize the operation procedure, leverage CI/CD pipeline to upgrade existing clusters
 
 Developed system to automate new cluster deployment, by bridging gaps between multiple upstream systems.
 
 ### Oracle
-`Nov 2016 – Feb 2018` **Architecture and Performance Service | [Site Reliability Engineer]**
+`Nov 2016 – Feb 2018` **Architecture and Performance Service [Site Reliability Engineer]**
 
-As a member of Architecture and Performance Service, provide solutions and technical support for Oracle’s infrastructure, participate in the development of AI Ops platform to ensure service reliability.
+Provide solutions and technical support for Oracle’s infrastructure, participate in the development of AI Ops platform to ensure service reliability.
 
-Participate in P1 on call to support Oracle production environment, including public cloud. Responsible for critical service recovery and root cause analysis for Oracle Linux, Oracle VM, and ZFS Storage.
+Join on call rotation to support Oracle production environment, including public cloud. Responsible for critical service recovery and root cause analysis for Oracle Linux, Oracle VM, and ZFS Storage.
 
 `Oct 2012 – Oct 2016`
-**Global Support Center | [Technical Support Engineer]**
+**Global Support Center [Technical Support Engineer]**
 
-As a member of , provide technical support for Oracle Linux and Oracle VM, including but not limited to troubleshooting, crash root cause analysis, and performance tuning.
+Provide technical support for Oracle Linux and Oracle VM, including but not limited to troubleshooting, crash root cause analysis, and performance tuning.
 
-Problem Management: Respond to solve customers’ problem according to severity level and SLA, escalate and engage more resource if needed.
+Problem Management: Respond and solve customers’ problem according to severity level and SLA, escalate and engage more resource if needed.
 
-Knowledge Management: maintain testing environment to simulate and reproduce customers problem and deliver multiple notes in knowledge base. 
-
+Knowledge Management: maintain testing environment to reproduce customers problem. Delivered multiple notes in knowledge base.
 
 ### Skybility
-`Nov 2016 – Feb 2018` **Research & Development Center [Software Engineer]**
+`May 2010 – Sep 2012`
+**Research & Development Center [Software Engineer]**
 
 Skybility is a system integration provider, focus at HA Cluster, Virtualization, and IT services.
 
 Participate in development of multiple products, including High Availability Cluster and Disaster Recovery system, Linux based thin client system, etc.
 
-Participate in the development of open source project php-libvirt and integrate it into Skybility’s heterogeneous virtualization management platform.
+Participate in the development of open source project [php-libvirt](https://libvirt.org/git/?p=libvirt-php.git;a=search;s=Lyre;st=author) and integrate it into Skybility’s heterogeneous virtualization management platform.
 
-## Education
+## Projects
 
-`1654-1660`
-__The King's School, Grantham.__
+### Tencent
+__Enterprise IT Container Platform__ (Helm/Golang)
 
-`June 1661 - now`
-__Trinity College, Cambridge__
+While migrating our containerized applications to Tencent Kubernetes Engine, we integrate it with multiple internal service for access control, namespace isolation, etc. As a Solution Architecture I lead the building of this platform, developed the procedure and best practice in application migration and deployment.
 
-- Sizar
+As a Consultant, I share the knowledge on docker and kubernetes via lectures, trainings, demos, and articles. I also responsible for migrating our critical services like IAM into kubernetes.
 
-`1667 - death`
-__Trinity College, Cambridge__
+As a developer, I created a Helm Chart template (which implemented our best practice) and CI/CD plugin to simplify application deployment.
 
-- Fellow
+__Enterprise IT Linux Base Image__ (Bash/Golang)
 
+As a part of Site Reliability Engineering, we deliver our standard runtime by creating a Linux Base image. A modular framework were developed to automate the image creation, as well as daily routine inspections to discover the non-standard configuration for online systems.
 
+I purposed these configuration and best practice, developed the scripts to build Linux images, as well as the dashboard for routine inspections.
 
-## Awards
+__RolesDB__ (Python Flask/MongoDB)
 
-`2012`
-President, *Royal Society*, London, UK
+RolesDB is an Instance and Configuration Management System, aim to support the CI/CD pipeline for large scale underlying cloud infrastructure (storage, load balancer, etc). Its label based implementation allow user organize instance easily while  filter them preciously.
 
-Associate, *French Academy of Science*, Paris, France
+I am the architecture and lead programmer for this project.
 
+__Cloud Block Storage Deployment__ (Python Flask/ETCD)
 
+This project bridged gaps between multiple upstream services to automate custer deployment, reducing the time to deploy a cluster from 30 minutes (in an ideal condition) to 5 minutes at average. It greatly improve the productivity as we were deploying new clusters every day.
 
-## Publications
+I designed and implemented the whole system.
 
-<!-- A list is also available [online](http://scholar.google.co.uk/citations?user=LTOTl0YAAAAJ) -->
+### Oracle
 
-### Journals
+__Zbroker Coordination Service__ (Python/Zookeeper)
 
-`1669`
-Newton Sir I, De analysi per æquationes numero terminorum infinitas. 
+ZBroker Coordination Service is a distributed coordination system, it's a part of an AI ​​Ops platform for self healing. When a moving part in the cloud infrastructure fails, multiple self recovery modules may be triggered at the same time, which result in conflict. For example, several module will try to recover a same database. ZBroker is based on zookeeper and uses a custom read-write lock to resolve these conflicts.
 
-`1669`
-Lectiones opticæ.
+I am responsible for the design and development of this service.
 
-etc. etc. etc.
+__Bug Auto Triage__ (Python/Bash)
 
-### Patents
+Operation team file bugs for triage whenever components failure, 40% of these bugs were known issues such as hardware failures, software bugs, or incorrect configuration. This project provide a modular framework that analyzes the bug description, attachments, call stacks, and generate a report showing the similarity with other known bugs.
 
-`2012`
-Infinitesimal calculus for solutions to physics problems, [SMBC](http://www.techdirt.com/articles/20121011/09312820678/if-patents-had-been-around-time-newton.shtml) patent 001
+I designed and developed the framework, also implemented the hardware fault module.
 
+### Sykbility
 
-## Occupation
+__Skybility High Availability & Disaster Recovery__ (C/Bash)
 
-`1600`
-__Royal Mint__, London
+Skkybility HADR is a Disaster Recovery solution based on a existing two-node High Availability cluster, and integrates open source solution DRBD(similar to a RAID-0 over network) for disaster recovery. To mitigate the performance impact caused by limited internet bandwidth, a proxy module were developed to cache its I/O traffic, and send to its peer asynchronously.
 
-- Warden
-- Minted coins
+I am responsible for the development of Web Configuration Server, and part of the proxy server.
 
-`1600`
-__Lucasian professor of Mathematics__, Cambridge University
+## Personal Projects
 
+[Live Sequence Protocol](http://code.poetpalace.org/cgit/p1/tree) (Golang): a transport protocol build on top of UDP, implemented some TCP-like features, including sliding window, retransmission, heartbeat, and delivery order.
+
+[Iputils](http://git.poetpalace.org/cgit.cgi/iputils/tree) (Python): a very simple implementation of tcpdump, ping, and traceroute.
+
+[libwp](http://git.poetpalace.org/cgit.cgi/libwp/tree) (C): wrapper for the most common libc, linux, and POSIX function, also contain some frequently used data structures and sorting algorithms.
+
+## Articles (Chinese)
+
+Multiple articles published on [WeChat Public Account](https://cloud.tencent.com/developer/column/79283), in a variety of technical fields.
+
+Comment for [ETCD's Raft implementation](https://github.com/4179e1/etcd/tree/master/contrib/raftexample/doc)
+
+A Lecture on distributed system, specially for [PAXOS, the Distributed Consensus Protocol](http://t.poetpalace.org/misc/paxos.pptx)
+
+Translation of *Randy Meyers'* [The New C](http://misc.poetpalace.org/C99/), which introduce features of C99
 
 ## Education
 
 `Sep 2004 – Jul 2009`
 **Shenzhen University**
 
-[Bachelor of Engineering in Computer Science] 
+Bachelor of Engineering in Computer Science
 
-## Certificates                                                                                       
+## Certificates
+
 `Apr 2020`
 __Tencent Cloud Solutions Architect Associate Engineer__
 
@@ -167,6 +173,4 @@ __College English Test Band 4__
 
 <!-- ### Footer
 
-Last updated: May 2013 -->
-
-
+Last updated: Oct 2020 -->

@@ -6,7 +6,9 @@ title: Yong Li's CV
 
 <div id="webaddress">
 +86 18927406823 | 
-<a href="s4179e1@msn.com">s4179e1@msn.com</a>
+<a href="s4179e1@msn.com">s4179e1@msn.com</a> |
+<a href="./YongLi-CV.pdf">Download PDF</a> |
+<a href="./zh-cn.html">Chinese Version</a>
 </div>
 
 ## Specialization
