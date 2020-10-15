@@ -20,9 +20,11 @@ Solid and comprehensive skill set, like to share,
 and keen to embrace leading-edge technologies.
 
 ### Programming
+
 C, Shell, Python, Golang, NodeJs, Lua
 
 ### Skill
+
 Cloud Computing, Operating System, Distributed System, Container, Storage, and Networking
 
 ## Occupation
@@ -35,7 +37,7 @@ Provide technical solution and consultant service while migrating IT service to 
 
 Implement Site Reliability Engineering to improve service quality, including procedure, automation, and culture.
 
-Participant in development of Business Group’s R&D platform to improve the productivity of entire software R&D lifecycle.
+Participant in development of Business Group’s R&D platform to improve the productivity of software R&D lifecycle.
 
 `Dec 2018 – Nov 2019`
 **Cloud Foundation Department [Software Engineer]**
@@ -65,9 +67,9 @@ Join on call rotation to support Oracle production environment, including public
 
 Provide technical support for Oracle Linux and Oracle VM, including but not limited to troubleshooting, crash root cause analysis, and performance tuning.
 
-Problem Management: Respond to solve customers’ problem according to severity level and SLA, escalate and engage more resource if needed.
+Problem Management: Respond and solve customers’ problem according to severity level and SLA, escalate and engage more resource if needed.
 
-Knowledge Management: maintain testing environment to simulate and reproduce customers problem and deliver multiple notes in knowledge base.
+Knowledge Management: maintain testing environment to reproduce customers problem. Delivered multiple notes in knowledge base.
 
 ### Skybility
 `May 2010 – Sep 2012`
@@ -94,7 +96,7 @@ __Enterprise IT Linux Base Image__ (Bash/Golang)
 
 As a part of Site Reliability Engineering, we deliver our standard runtime by creating a Linux Base image. A modular framework were developed to automate the image creation, as well as daily routine inspections to discover the non-standard configuration for online systems.
 
-I purposed these configuration and best practice, scripts, images, and the dashboard.
+I purposed these configuration and best practice, developed the scripts to build Linux images, as well as the dashboard for routine inspections.
 
 __RolesDB__ (Python Flask/MongoDB)
 
@@ -169,4 +171,4 @@ __College English Test Band 4__
 
 <!-- ### Footer
 
-Last updated: May 2013 -->
+Last updated: Oct 2020 -->
