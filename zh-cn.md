@@ -143,13 +143,13 @@ Skybilitiy HADR V2.6 是一个集群和容灾的解决方案，它在双节点�
 
 ## 文章
 
-发表在微信公众号[云服务与SRE架构师社区]((https://cloud.tencent.com/developer/column/79283)上的多篇文章，涉及多个技术领域
-
-[Etcd Raft代码分析](https://github.com/4179e1/etcd/tree/master/contrib/raftexample/doc)
+发表在微信公众号[云服务与SRE架构师社区](https://cloud.tencent.com/developer/column/79283)上的多篇文章，涉及多个技术领域
 
 主题演讲：[分布式一致性协议Paxos简介](http://t.poetpalace.org/misc/paxos.pptx)
 
-[《新的C语言》](http://misc.poetpalace.org/C99/)（翻译作品）：C99特性文章翻译
+代码分析：[Etcd Raft协议的介绍和分析](https://github.com/4179e1/etcd/tree/master/contrib/raftexample/doc)
+
+翻译作品：[《新的C语言》](http://misc.poetpalace.org/C99/) C99特性介绍
 
 
 ## 教育经历
