@@ -11,82 +11,79 @@ title: Yong Li's CV
 <a href="./index.html">English Version</a>
 </div>
 
-## Specialization
+## 自我评价
 
-10 years of development experience on Linux,
+多年Linux平台开发经历，同时在站点可靠性工程上拥有丰富的经验
 
-also have rich experience in Site Reliability Engineering.
+扎实而全面的技能组合，乐于分享，积极拥抱前沿技术
 
-Solid and comprehensive skill set, like to share,
-
-and keen to embrace leading-edge technologies.
-
-### Programming
+### 开发语言
 
 C, Shell, Python, Golang, NodeJs, Lua
 
-### Skill
+### 专业技能
 
-Cloud Computing, Operating System, Distributed System, Container, Storage, and Networking
+云计算，操作系统，分布式系统，容器，存储，网络
 
-## Occupation
+## 工作经历
 
-### Tencent
-`Nov 2019 – Now`
-**Enterprise IT [Hybrid Role]**
+### 腾讯
+`2019年11月至今`
+**TEG - 企业IT部 [混合角色]**
 
-Provide technical solution and consultant service while migrating IT service to Tencent Cloud, especially for containerized services.
+为企业IT服务上云提供技术解决方案和技术咨询，主导容器化业务上云
 
-Implement Site Reliability Engineering to improve service quality, including procedure, automation, and culture.
+在组织中落地站点可靠性工程，包括流程、自动化、文化等方面
 
-Participant in development of Business Group’s R&D platform to improve the productivity of software R&D lifecycle.
+参与TEG的研发效能平台（智研）的开发，提高从开发，测试到运维全生命周期的效率
 
-`Dec 2018 – Nov 2019`
-**Cloud Foundation Department [Software Engineer]**
+`2018年12月 - 2019年11月`
+**TEG - 基础架构部 [运营开发工程师]**
 
-Responsible of the development of CI/CD system, to support the Tencent cloud infrastructure, including block storage, database, and finance technology.
+负责部门的CI/CD体系的建设，用于支撑腾讯云、社交业务、金融业务基层设施的发布和变更
 
-Lead the development of RolesDB (a configuration management system, see project description below)
+主导RolesDB（增强版的CMDB及应用配置管理系统）和API 网关的开发和项目管理
 
-`Feb 2018 – Nov 2018`
-**Cloud Foundation Department [Site Reliability Engineer]**
+`2018年 2月 - 2018年11月`
+**TEG -基础架构部 [云存储运维工程师/SRE]**
 
-Responsible for the operation of Tencent Cloud Block Storage, ensure its availability and reliability
+负责腾讯云分布式存储（CBS）的日常运维，保障其可用性和稳定性
 
-Standardize the operation procedure, leverage CI/CD pipeline to upgrade existing clusters
+对全运维流程进行标准化，为运维自动化建立了基础
 
-Developed system to automate new cluster deployment, by bridging gaps between multiple upstream systems.
+打通多个上游系统，完成了云存储集群部署的自动化
 
-### Oracle
-`Nov 2016 – Feb 2018` **Architecture and Performance Service [Site Reliability Engineer]**
+### 甲骨文
+`2016年11月 - 2018年 2月` **架构和性能服务 [站点可靠性工程师(SRE)]**
 
-Provide solutions and technical support for Oracle’s infrastructure, participate in the development of AI Ops platform to ensure service reliability.
+为Oracle的基础架构设施提供解决方案和技术支持，参与AI OPS平台的开发来保障服务的可靠性
 
-Join on call rotation to support Oracle production environment, including public cloud. Responsible for critical service recovery and root cause analysis for Oracle Linux, Oracle VM, and ZFS Storage.
+参与P1 on call轮值来支持Oracle的关键服务，负责Oracle Linux，Oracle VM，以及ZFS存储的故障恢复和原因分析。
 
-`Oct 2012 – Oct 2016`
-**Global Support Center [Technical Support Engineer]**
+`2012年10月 - 2016年10月`
+**全球技术支持中心 [Linux技术支持工程师]**
 
-Provide technical support for Oracle Linux and Oracle VM, including but not limited to troubleshooting, crash root cause analysis, and performance tuning.
+为Oracle Linux和Oracle VM提供技术支持，包括但不限于：故障排查，宕机原因分析，以及性能调优
 
-Problem Management: Respond and solve customers’ problem according to severity level and SLA, escalate and engage more resource if needed.
+问题管理：按照问题的严重程度和服务SLA跟进和处理问题，根据需要上升获取更多的资源来推动问题的解决
 
-Knowledge Management: maintain testing environment to reproduce customers problem. Delivered multiple notes in knowledge base.
+知识管理：维护内部测试环境来重现和验证问题，为这些问题创建知识库文档
 
-### Skybility
-`May 2010 – Sep 2012`
-**Research & Development Center [Software Engineer]**
 
-Skybility is a system integration provider, focus at HA Cluster, Virtualization, and IT services.
+### 傲冠软件
+`2010年 5月 - 2012年 9月`
+**研发中心 [软件工程师]**
 
-Participate in development of multiple products, including High Availability Cluster and Disaster Recovery system, Linux based thin client system, etc.
+傲冠软件是一家基于开源技术的系统集成商，专注于集群系统、虚拟化、以及IT服务
 
-Participate in the development of open source project [php-libvirt](https://libvirt.org/git/?p=libvirt-php.git;a=search;s=Lyre;st=author) and integrate it into Skybility’s heterogeneous virtualization management platform.
+参与公司多个产品的研发，包括集群和容灾软件HADR V2.6， 客户端HGC图形化配置工具等
 
-## Projects
+参与开源项目[php-libvirt](https://libvirt.org/git/?p=libvirt-php.git;a=search;s=Lyre;st=author)的开发，并把它集成到傲冠的异构虚拟化管理平台HGCCP V2.0 中
 
-### Tencent
-__Enterprise IT Container Platform__ (Helm/Golang)
+## 项目介绍
+
+### 腾讯
+__企业IT容器服务平台__ (Helm/Golang)
 
 While migrating our containerized applications to Tencent Kubernetes Engine, we integrate it with multiple internal service for access control, namespace isolation, etc. As a Solution Architecture I lead the building of this platform, developed the procedure and best practice in application migration and deployment.
 
@@ -94,7 +91,7 @@ As a Consultant, I share the knowledge on docker and kubernetes via lectures, tr
 
 As a developer, I created a Helm Chart template (which implemented our best practice) and CI/CD plugin to simplify application deployment.
 
-__Enterprise IT Linux Base Image__ (Bash/Golang)
+__企业IT Linux基础镜像__ (Bash/Golang)
 
 As a part of Site Reliability Engineering, we deliver our standard runtime by creating a Linux Base image. A modular framework were developed to automate the image creation, as well as daily routine inspections to discover the non-standard configuration for online systems.
 
@@ -106,15 +103,15 @@ RolesDB is an Instance and Configuration Management System, aim to support the C
 
 I am the architecture and lead programmer for this project.
 
-__Cloud Block Storage Deployment__ (Python Flask/ETCD)
+__CBS云存储自动上架服务__ (Python Flask/ETCD)
 
 This project bridged gaps between multiple upstream services to automate custer deployment, reducing the time to deploy a cluster from 30 minutes (in an ideal condition) to 5 minutes at average. It greatly improve the productivity as we were deploying new clusters every day.
 
 I designed and implemented the whole system.
 
-### Oracle
+### 甲骨文
 
-__Zbroker Coordination Service__ (Python/Zookeeper)
+__Zbroker分布式协调服务__ (Python/Zookeeper)
 
 ZBroker Coordination Service is a distributed coordination system, it's a part of an AI ​​Ops platform for self healing. When a moving part in the cloud infrastructure fails, multiple self recovery modules may be triggered at the same time, which result in conflict. For example, several module will try to recover a same database. ZBroker is based on zookeeper and uses a custom read-write lock to resolve these conflicts.
 
@@ -126,15 +123,15 @@ Operation team file bugs for triage whenever components failure, 40% of these bu
 
 I designed and developed the framework, also implemented the hardware fault module.
 
-### Sykbility
+### 傲冠软件
 
-__Skybility High Availability & Disaster Recovery__ (C/Bash)
+__傲冠高可用和容灾软件__ (C/Bash)
 
 Skkybility HADR is a Disaster Recovery solution based on a existing two-node High Availability cluster, and integrates open source solution DRBD(similar to a RAID-0 over network) for disaster recovery. To mitigate the performance impact caused by limited internet bandwidth, a proxy module were developed to cache its I/O traffic, and send to its peer asynchronously.
 
 I am responsible for the development of Web Configuration Server, and part of the proxy server.
 
-## Personal Projects
+## 个人项目
 
 [Live Sequence Protocol](http://code.poetpalace.org/cgit/p1/tree) (Golang): a transport protocol build on top of UDP, implemented some TCP-like features, including sliding window, retransmission, heartbeat, and delivery order.
 
@@ -142,7 +139,7 @@ I am responsible for the development of Web Configuration Server, and part of th
 
 [libwp](http://git.poetpalace.org/cgit.cgi/libwp/tree) (C): wrapper for the most common libc, linux, and POSIX function, also contain some frequently used data structures and sorting algorithms.
 
-## Articles (Chinese)
+## 文章
 
 Multiple articles published on [WeChat Public Account](https://cloud.tencent.com/developer/column/79283), in a variety of technical fields.
 
@@ -152,25 +149,25 @@ A Lecture on distributed system, specially for [PAXOS, the Distributed Consensus
 
 Translation of *Randy Meyers'* [The New C](http://misc.poetpalace.org/C99/), which introduce features of C99
 
-## Education
+## 教育经历
 
-`Sep 2004 – Jul 2009`
-**Shenzhen University**
+`2004年 9月 - 2009年 7月`
+**深圳大学**
 
-Bachelor of Engineering in Computer Science
+工学学士(计算机科学与技术)
 
-## Certificates
+## 证书
 
-`Apr 2020`
-__Tencent Cloud Solutions Architect Associate Engineer__
+`2020年 4月`
+__腾讯云架构工程师__
 
-`Aug 2010`
+`2010年 8月`
 __Red Hat Certified Engineer (RHEL5)__
 
-`Jun 2006`
-__College English Test Band 4__
+`2006年 6月`
+__CET-4__
 
 
 <!-- ### Footer
 
-Last updated: Oct 2020 -->
+Last updated: Oct 202CET0 -->
