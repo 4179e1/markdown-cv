@@ -85,69 +85,72 @@ C, Shell, Python, Golang, NodeJs, Lua
 ### 腾讯
 __企业IT容器服务平台__ (Helm/Golang)
 
-While migrating our containerized applications to Tencent Kubernetes Engine, we integrate it with multiple internal service for access control, namespace isolation, etc. As a Solution Architecture I lead the building of this platform, developed the procedure and best practice in application migration and deployment.
+在把容器化服务迁移到Tencent Kubernetes Engine时，我们需要集成公司的内部系统以提供权限控制，发布变更等功能。作为解决方案架构师我主导了这个平台的开发，提供了业务迁移部署的流程和最佳实践
 
-As a Consultant, I share the knowledge on docker and kubernetes via lectures, trainings, demos, and articles. I also responsible for migrating our critical services like IAM into kubernetes.
+作为技术顾问，我通过演讲、培训、demo、文档等多种方式分享了docker和kubernetes的知识，并负责把IAM等关键服务迁移到kubernetes中
 
-As a developer, I created a Helm Chart template (which implemented our best practice) and CI/CD plugin to simplify application deployment.
+作为开发者，我把最佳实践封装成一个Helm Chart模板，并开发了对应CI/CD流水线插件来简化服务的部署和发布
 
 __企业IT Linux基础镜像__ (Bash/Golang)
 
-As a part of Site Reliability Engineering, we deliver our standard runtime by creating a Linux Base image. A modular framework were developed to automate the image creation, as well as daily routine inspections to discover the non-standard configuration for online systems.
+作为站点可靠性工程的基础，我们通过创建Linux基础镜像来提供一个标准化的运行时环境，开发了一个模块化的框架了支持自动化镜像生成，并通过定时的选件发现线上的非标准配置
 
-I purposed these configuration and best practice, developed the scripts to build Linux images, as well as the dashboard for routine inspections.
+我编写了这些配置和最佳实践的标准，开发了标准化脚本和巡检看板
 
 __RolesDB__ (Python Flask/MongoDB)
 
-RolesDB is an Instance and Configuration Management System, aim to support the CI/CD pipeline for large scale underlying cloud infrastructure (storage, load balancer, etc). Its label based implementation allow user organize instance easily while  filter them preciously.
+RolesDB时一个实例和配置管理系统，用于支撑公有云底层的大规模基础设施的CI/CDl流水线。它把分散在多个不同层次的配置信息整合到同一个系统中，包括CMDB中的配置管理项，OSS中的业务属性，以及自定义的Key Value配置项等。这些属性统一呈现为标签键值对，为其他组件如发布系统，监控系统等提供了设备筛选的功能。RolesDB另外提供了应用配置管理功能，发布系统从中获取配置数据，并把应用的配置模板渲染成实际的配置文件。
 
-I am the architecture and lead programmer for this project.
+我是RolesDB的主要设计者和开发者。
+
 
 __CBS云存储自动上架服务__ (Python Flask/ETCD)
 
-This project bridged gaps between multiple upstream services to automate custer deployment, reducing the time to deploy a cluster from 30 minutes (in an ideal condition) to 5 minutes at average. It greatly improve the productivity as we were deploying new clusters every day.
+该服务打通了上游多个不同系统，提供了一个后台服务和命令行工具代替了原来需要多个人工执行的操作，把部署一个集群的时间从平均30分钟降到到5分钟左右。
 
-I designed and implemented the whole system.
+我负责该项目的设计和开发
 
 ### 甲骨文
 
 __Zbroker分布式协调服务__ (Python/Zookeeper)
 
-ZBroker Coordination Service is a distributed coordination system, it's a part of an AI ​​Ops platform for self healing. When a moving part in the cloud infrastructure fails, multiple self recovery modules may be triggered at the same time, which result in conflict. For example, several module will try to recover a same database. ZBroker is based on zookeeper and uses a custom read-write lock to resolve these conflicts.
+ZBroker Coordination Service是一个分布式协调系统，它是Oracle SaaS的AI Ops平台的一个基础组件，用于支撑自我恢复项目。云端的基础设施发生故障时，不同层次的自我恢复模块可能会同时触发，这些恢复模块的行为之间可能存在冲突，如多个模块都试图重启同一个数据库。ZBroker基于zookeeper，使用一个自定义的读写锁来解决这些冲突，它使用python编写。
 
-I am responsible for the design and development of this service.
+我负责该项目的设计和开发
 
 __Bug Auto Triage__ (Python/Bash)
 
-Operation team file bugs for triage whenever components failure, 40% of these bugs were known issues such as hardware failures, software bugs, or incorrect configuration. This project provide a modular framework that analyzes the bug description, attachments, call stacks, and generate a report showing the similarity with other known bugs.
+在Oracle的生产环境中，运维团队会为每个故障报告一个bug，其中有约40%是已知问题如硬件故障，已知的bug，错误的配置项等。Bug Auto Triage提供了一个模块化的框架，通过不同的插件分析bug的内容，附件，call stack等信息，并最终生成一份报告表明这个bug跟其他已知问题的相似程度，帮助团队更快的定位问题的根源，或者分析问题的方向。
 
-I designed and developed the framework, also implemented the hardware fault module.
+Bug Auto Triage 主要使用Python 和 Bash 编写，我负责编写了其主体框架，硬件故障，以及报告模块。
 
 ### 傲冠软件
 
 __傲冠高可用和容灾软件__ (C/Bash)
 
-Skkybility HADR is a Disaster Recovery solution based on a existing two-node High Availability cluster, and integrates open source solution DRBD(similar to a RAID-0 over network) for disaster recovery. To mitigate the performance impact caused by limited internet bandwidth, a proxy module were developed to cache its I/O traffic, and send to its peer asynchronously.
+Skybilitiy HADR V2.6 是一个集群和容灾的解决方案，它在双节点高可用性集群软件Skybilitiy HA 2.5的基础上，整合了开源的DRBD（可以当作是网络上的RAID1）来实现异地容灾，为了在广域网带宽不足的情况下确保I/O性能，加入了一个自研的代理模块，以异步的方式把I/O请求发送到备机。
+    
+我负责了web配置服务器，以及部分代理模块的开发，主要使用C语言和Bash。并全程协助客户（中兴通讯）完成该软件需求分析，测试验证，发布部署方案。
 
-I am responsible for the development of Web Configuration Server, and part of the proxy server.
 
 ## 个人项目
 
-[Live Sequence Protocol](http://code.poetpalace.org/cgit/p1/tree) (Golang): a transport protocol build on top of UDP, implemented some TCP-like features, including sliding window, retransmission, heartbeat, and delivery order.
+[Live Sequence Protocol](http://code.poetpalace.org/cgit/p1/tree) (Golang): 一个基于UD开发的传输协议，包含滑动窗口、超时重传、保证消息顺序、心跳检测等类似TCP的特性
 
-[Iputils](http://git.poetpalace.org/cgit.cgi/iputils/tree) (Python): a very simple implementation of tcpdump, ping, and traceroute.
+[Iputils](http://git.poetpalace.org/cgit.cgi/iputils/tree) (Python): 非常简单的tcpdump, ping, 以及traceroute的python实现
 
-[libwp](http://git.poetpalace.org/cgit.cgi/libwp/tree) (C): wrapper for the most common libc, linux, and POSIX function, also contain some frequently used data structures and sorting algorithms.
+[libwp](http://git.poetpalace.org/cgit.cgi/libwp/tree) (C): 对stdc、linux、posix中常用函数的封装，及常用的数据结构和算法
 
 ## 文章
 
-Multiple articles published on [WeChat Public Account](https://cloud.tencent.com/developer/column/79283), in a variety of technical fields.
+发表在微信公众号[云服务与SRE架构师社区]((https://cloud.tencent.com/developer/column/79283)上的多篇文章，涉及多个技术领域
 
-Comment for [ETCD's Raft implementation](https://github.com/4179e1/etcd/tree/master/contrib/raftexample/doc)
+[Etcd Raft代码分析](https://github.com/4179e1/etcd/tree/master/contrib/raftexample/doc)
 
-A Lecture on distributed system, specially for [PAXOS, the Distributed Consensus Protocol](http://t.poetpalace.org/misc/paxos.pptx)
+主题演讲：[分布式一致性协议Paxos简介](http://t.poetpalace.org/misc/paxos.pptx)
 
-Translation of *Randy Meyers'* [The New C](http://misc.poetpalace.org/C99/), which introduce features of C99
+[《新的C语言》](http://misc.poetpalace.org/C99/)（翻译作品）：C99特性文章翻译
+
 
 ## 教育经历
 
