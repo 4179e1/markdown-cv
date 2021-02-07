@@ -1,6 +1,7 @@
 ---
 layout: cv
 title: Yong Li's CV
+
 ---
 # Yong Li (李勇)
 
@@ -13,7 +14,7 @@ title: Yong Li's CV
 
 ## Specialization
 
-10 years of development experience on Linux,
+Years of development experience on Linux,
 
 also have rich experience in Site Reliability Engineering.
 
@@ -32,10 +33,11 @@ Cloud Computing, Operating System, Distributed System, Container, Storage, and N
 ## Occupation
 
 ### Tencent
+
 `Nov 2019 – Now`
 **Enterprise IT [Hybrid Role]**
 
-Provide technical solution and consultant service while migrating IT service to Tencent Cloud, especially for containerized services.
+Provide technical solution and consultant service while migrating IT service to Tencent Cloud, especially for containerized services based on Kubernetes & Istio.
 
 Implement Site Reliability Engineering to improve service quality, including procedure, automation, and culture.
 
@@ -161,6 +163,9 @@ Bachelor of Engineering in Computer Science
 
 ## Certificates
 
+`Jan 2021`
+__AWS Certified Solutions Architect – Associate__
+
 `Apr 2020`
 __Tencent Cloud Solutions Architect Associate Engineer__
 
@@ -170,7 +175,6 @@ __Red Hat Certified Engineer (RHEL5)__
 `Jun 2006`
 __College English Test Band 4__
 
-
 <!-- ### Footer
 
-Last updated: Oct 2020 -->
+Last updated: Jan 2021 -->
